@@ -15,11 +15,13 @@ namespace OnlineJobPortalProject.User
         SqlConnection con;
         SqlCommand cmd;
         string str = ConfigurationManager.ConnectionStrings["cs"].ConnectionString;
+
         //Configuration manager class provides a way to access and manage configuration settings from within your code.
         //In this case, it used to retreive a connection string from CS collection of the config file.
         //Storing the CS in a variable helps it to be managed separately form the code 
         protected void Page_Load(object sender, EventArgs e)
         {
+
 
         }
 
